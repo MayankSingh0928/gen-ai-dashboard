@@ -79,7 +79,7 @@ npm run dev
 
 🔥 Deployment
 
-The project is deployed at: Live Demo
+The project is deployed at: https://gen-ai-dashboard1.onrender.com
 
 📌 Approach Summary
 
