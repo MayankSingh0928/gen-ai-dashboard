@@ -39,16 +39,27 @@ Deployment: Vercel / Netlify
 │   │   ├── QueryInput.jsx
 
 │   │   ├── QueryHistory.jsx
+
 │   │   ├── QueryResults.jsx
+
 │   ├── store
+
 │   │   ├── querySlice.js
+
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 │   ├── index.css
+
 ├── public
+
 ├── vite.config.js
+
 ├── tailwind.config.js
+
 ├── package.json
+
 ├── README.md
 
 🚀 Getting Started
