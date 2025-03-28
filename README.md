@@ -33,19 +33,33 @@ Deployment: Vercel / Netlify
 📂 Project Structure
 
 ├── src
+
 │   ├── components
+
 │   │   ├── QueryInput.jsx
+
 │   │   ├── QueryHistory.jsx
+
 │   │   ├── QueryResults.jsx
+
 │   ├── store
+
 │   │   ├── querySlice.js
+
 │   ├── App.jsx
+
 │   ├── main.jsx
+
 │   ├── index.css
+
 ├── public
+
 ├── vite.config.js
+
 ├── tailwind.config.js
+
 ├── package.json
+
 ├── README.md
 
 🚀 Getting Started
@@ -109,6 +123,6 @@ This project is open-source and available under the MIT License.
 
 🔗 Connect with Me
 
-GitHub: github.com/MayankSingh0928 
+GitHub: https://github.com/MayankSingh0928
 
-LinkedIn: linkedin.com/in/mayanksingh28
+LinkedIn: https://www.linkedin.com/in/mayanksingh28/
