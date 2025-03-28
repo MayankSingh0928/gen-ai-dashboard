@@ -33,8 +33,11 @@ Deployment: Vercel / Netlify
 📂 Project Structure
 
 ├── src
+
 │   ├── components
+
 │   │   ├── QueryInput.jsx
+
 │   │   ├── QueryHistory.jsx
 │   │   ├── QueryResults.jsx
 │   ├── store
