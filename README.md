@@ -1,12 +1,114 @@
-# React + Vite
+Gen AI Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Overview
 
-Currently, two official plugins are available:
+Gen AI Dashboard is a React-based Data Query Dashboard that allows non-technical users to ask complex business questions in natural language and receive instant, AI-generated insights. The project is built using React, Redux, Tailwind CSS, and Vite for a seamless and efficient user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌟 Features
 
-## Expanding the ESLint configuration
+Natural Language Query Input: Users can type business-related queries to fetch insights.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Query History: Keeps track of user queries for easy reference.
+
+Results Display: Presents AI-generated responses in an intuitive format.
+
+State Management: Utilizes Redux Toolkit for efficient query state handling.
+
+Mock Query Processing: Simulates AI query execution for demonstration purposes.
+
+Responsive Design: Ensures optimal display on various devices.
+
+🛠️ Tech Stack
+
+Frontend: React.js (Vite)
+
+State Management: Redux Toolkit
+
+Styling: Tailwind CSS
+
+Data Visualization: Recharts / Chart.js (future scope)
+
+Deployment: Vercel / Netlify
+
+📂 Project Structure
+
+├── src
+│   ├── components
+│   │   ├── QueryInput.jsx
+│   │   ├── QueryHistory.jsx
+│   │   ├── QueryResults.jsx
+│   ├── store
+│   │   ├── querySlice.js
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+├── public
+├── vite.config.js
+├── tailwind.config.js
+├── package.json
+├── README.md
+
+🚀 Getting Started
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/MayankSingh0928/gen-ai-dashboard.git
+cd gen-ai-dashboard
+
+2️⃣ Install Dependencies
+
+npm install
+
+3️⃣ Run the Development Server
+
+npm run dev
+
+🔥 Deployment
+
+The project is deployed at: Live Demo
+
+📌 Approach Summary
+
+1️⃣ Component Structure & State Management
+
+Used Redux Toolkit for managing query states (loading, success, failure).
+
+Implemented three main UI components:
+
+QueryInput (handles user queries & dispatches actions)
+
+QueryHistory (displays past queries)
+
+QueryResults (shows query responses)
+
+2️⃣ AI Query Simulation
+
+Simulated AI query responses using setTimeout() in Redux actions.
+
+Processed query input, stored in history, and displayed mock AI responses.
+
+3️⃣ UI & Styling
+
+Designed a minimalist interface with Tailwind CSS.
+
+Integrated Vite for fast builds and efficient development.
+
+4️⃣ Handling Errors & Edge Cases
+
+Added loading states for better user experience.
+
+Implemented error handling for query failures.
+
+🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit PRs.
+
+📜 License
+
+This project is open-source and available under the MIT License.
+
+🔗 Connect with Me
+
+GitHub: github.com/MayankSingh0928 
+
+LinkedIn: linkedin.com/in/mayanksingh28
