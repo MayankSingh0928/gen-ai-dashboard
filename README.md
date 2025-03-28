@@ -123,6 +123,6 @@ This project is open-source and available under the MIT License.
 
 🔗 Connect with Me
 
-GitHub: github.com/MayankSingh0928 
+GitHub: https://github.com/MayankSingh0928
 
-LinkedIn: linkedin.com/in/mayanksingh28
+LinkedIn: https://www.linkedin.com/in/mayanksingh28/
